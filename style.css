@@ -1,0 +1,365 @@
+/* CSS Document */
+
+body  {
+	cursor: url(normal.cur), pointer;
+	font: 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background: #000;
+	background-image: url(images/t³o.png); 
+	background-position: center top;
+	margin: auto;
+	padding: 0;
+	cursor: url(normal.cur), pointer;
+	text-align: center;
+	color: #cccccc;
+    width: 900px;
+}
+
+#header{
+	background: #000;
+	margin-top: 10;
+	background: url(images/header.PNG) no-repeat; 
+	background-position: center top;	
+	width: 900px;
+	height: 330px;
+}
+
+#title{
+	font: 50px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top: -200;
+	margin-left: 50;
+	text-align: center;
+	color: #cccccc;
+    width: 300px;
+}
+
+#menu{
+	background: #000;
+	margin-top: 10;
+	background: url(images/footer.PNG) no-repeat;
+	width: 900px;
+	height: 50px;
+	text-align: left;
+}
+	
+#menu a{
+	text-align: left;
+	margin-left: 35;
+	font-family: verdana;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration:none;	
+	padding-top: -10px;
+	padding-left: -100px;
+}
+
+#menu a:hover{
+	color: #F0E68C;
+}
+
+#menu1{
+	background: #000;
+	margin-top: 210;
+	background: url(images/footer.PNG) no-repeat;
+	width: 900px;
+	height: 50px;
+	text-align: left;
+}
+	
+#menu1 a{
+	text-align: left;
+	margin-left: 35;
+	font-family: verdana;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration:none;	
+	padding-top: 20px;
+	padding-left: -100px;
+}
+
+#menu1 a:hover{
+	color: #F0E68C;
+}
+
+#left{
+ 	float:left; 
+	width: 250px;
+	padding-left: 20px;
+}
+
+#left_1{
+	background: #000;
+	margin-top: 10;
+	background: url(images/menu.PNG) no-repeat;
+	width: 237px;
+	height: 10px;
+}
+
+#left_2{
+	background: #000;
+	background: url(images/menu1.PNG) repeat-y ; 	
+	width: 237px;
+}
+
+#left_2 li{
+	list-style-type: none;
+}
+	
+#left_2 a{
+	text-align: left;
+	font-family: verdana;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration:none;	
+	padding-top: -10px;
+	padding-left: -100px;
+}
+
+#left_2 a:hover{
+	color: #F0E68C;
+}
+
+#left_3{
+	background: #000;
+	background: url(images/menu2.PNG) no-repeat; 
+	width: 237px;
+	height: 10px;
+}
+
+#right{
+	float: right; 
+	width: 600px;
+	padding-right: 15px;
+}
+
+#middle{
+	background: #000;
+	margin-top: 10;
+	background: url(images/middle.PNG) no-repeat; 
+	width: 600px;
+	height: 10px;
+}
+
+#middle1{
+	background: #000;
+	background: url(images/middle1.PNG) repeat-y ; 	
+	width: 600px;
+}
+
+#middle1 li{
+	list-style-type: none;
+}
+	
+#middle1 a{
+	text-align: left;
+	font-family: verdana;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration:none;	
+	padding-top: -10px;
+	padding-left: -100px;
+}
+
+#middle1 a:hover{
+	color: #F0E68C;
+}
+
+#middle2{
+	background: #000;
+	background: url(images/middle2.PNG) no-repeat; 
+	width: 600px;
+	height: 10px;
+}
+
+#footer{
+	background: #000;
+	background: url(images/footer.png) no-repeat;
+	margin-top: 50;
+	float: right; 
+	width: 900px;
+	height: 50px;
+}
+
+#footer p{
+	text-align: center;
+	margin-top: 5;
+	float: right; 
+	width: 900px;
+	height: 50px;
+}
+
+#footer li{
+	list-style-type: none;
+}
+	
+#footer a{
+	text-align: left;
+	font-family: verdana;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration:none;	
+	padding-top: -10px;
+	padding-left: -100px;
+}
+
+#footer a:hover{
+	color: #F0E68C;
+}
+
+h1 {	
+	font: 13px Arial, sans-serif;
+	text-align: center;
+	padding-top: 3px;
+	color: #cccccc;
+	margin-top: 0;
+	margin-left: 5;
+	background: #000;
+	background: url(images/h1.png) no-repeat; 
+	width: 237px;
+	height: 23px;
+}
+
+h2 {	
+	font: 13px Arial, sans-serif;
+	text-align: left;
+	padding-top: 3px;
+	padding-left: 15px;
+	color: #cccccc;
+	margin-top: 0;
+	margin-left: 5;
+	background: #000;
+	background: url(images/h2.png) no-repeat; 
+	width: 590px;
+	height: 23px;
+}
+
+#p {	
+	font-size: 12px;
+	padding-top: 1px;
+	padding-left: 5px;
+	margin-left: 5;	
+	background: #000;
+	background: url(images/11.jpg) no-repeat;
+	height: 20px;
+}
+	/* Login ----------------------------------------*/
+	
+	form#login {
+		margin:0px auto;
+		width:137px;
+	}
+	
+	form#login div {
+		margin:10px auto;
+	}
+	
+	.fui {
+		border:none;
+	}
+	
+		input.txt {
+			width:138px;
+			height:29px;
+			padding:5px;
+			color:#847d5b;
+			margin:5px 0;
+			text-indent:34px;
+			background:url("images/text_input_sprite.jpg");
+		}
+		
+			input.txt:hover {
+				color:#c4bc96;
+			}	
+			
+			input.txt:active,
+			input.txt:focus {
+				color:#fff9de;
+			}				
+			
+				input.user:hover {
+					background-position:top center;
+				}
+				
+				input.user:active,
+				input.user:focus {
+					background-position:top right;
+				}
+					.fui {
+		border:none;
+	}
+	
+		input.txt2 {
+			width:127px;
+			height:18px;
+			padding:5px;
+			color:#847d5b;
+			margin:5px 0;
+			text-indent:5px;
+			background:url("/images/text_input_sprite2.jpg");
+		}
+		
+			input.txt2:hover {
+				color:#c4bc96;
+			}	
+			
+			input.txt2:active,
+			input.txt2:focus {
+				color:#fff9de;
+			}				
+			
+				input.user2:hover {
+					background-position:top center;
+				}
+				
+				input.user2:active,
+				input.user2:focus {
+					background-position:top right;
+				}
+			
+				input.pass {
+					background-position:bottom left;
+				}
+
+					input.pass:hover {
+						background-position:bottom center;
+					}
+					
+					input.pass:active,
+					input.pass:focus {
+						background-position:bottom right;
+					}
+
+		input.btn {
+			margin-top:8px;
+			background:url("/images/button_sprite.jpg");
+			display:block;
+			height:28px;
+			width:64px;
+			color:#c6e7ff;
+			cursor:pointer;
+			font-size:10px;
+			padding-bottom:0px;
+			text-transform:uppercase;
+			text-shadow:0 0 2px #000;
+		}
+		
+			input.log {
+				float:left;
+			}
+			
+			input.reg {
+				float:right;
+			}
+			
+				input.btn:hover {
+					color:#FFF;
+					background-position:center center;
+				}
+				
+				input.btn:active {
+					color:#d7e2ea;
+					background-position:bottom center;
+				}				
+				
+	/*-----------------------------------------------*/
+input{ border:1px solid #333; background:#000; color:#FF9900;  padding:3px 5px;}
+#input{ border:1px solid #333; background:#000; color:#FF9900;  padding:3px 5px;}
